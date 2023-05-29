@@ -24,7 +24,7 @@ Users should be able to:
 
 ## Links
 
-- [Solution URL:]([https://your-solution-url.com](https://github.com/soumah-yaya/react-world-countries-app/tree/main))
+- [Solution URL:](https://github.com/soumah-yaya/react-world-countries-app/tree/main)
 - [Live Site URL:](https://your-live-site-url.com)
 
 ## Built with
