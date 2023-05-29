@@ -1,0 +1,47 @@
+.search-input {
+    width: 466px;
+    height: 56px;
+    border-radius: 6px;
+    background-color: #fff;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+.search-form {
+    height: 100%;
+    background-color: transparent;
+}
+
+[data-theme=dark] .search-input {
+    color: var(--dark-theme-text);
+    background-color: var(--dark-theme-background-light);
+}
+
+.ant-input-affix-wrapper {
+    height: 100% !important;
+    background-color: transparent !important;
+    border: none;
+    gap: 10px;
+}
+
+.ant-input,
+.ant-input::placeholder {
+    color: var(--light-theme-text) !important;
+    background-color: transparent !important;
+}
+
+[data-theme=dark] .ant-input,
+[data-theme=dark] .ant-input::placeholder {
+    color: var(--dark-theme-text) !important;
+}
+
+[data-theme=dark] .ant-input-affix-wrapper {
+    color: var(--dark-theme-text) !important;
+}
+
+/*phones screen from 576px to 767px*/
+@media (max-width: 767px) {
+    .search-input {
+        width: 100%;
+        max-width: 466px;
+
+    }
+}

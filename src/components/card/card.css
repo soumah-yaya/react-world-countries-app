@@ -1,0 +1,38 @@
+.card {
+    width: 256px;
+    font-size: 14px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    border-radius: 6px;
+    overflow: hidden;
+    background-color: var(--light-theme-background);
+    cursor: pointer;
+}
+.card:hover {
+    transform: scale(1.02);
+}
+[data-theme=dark] .card {
+    color: var(--dark-theme-text);
+    background-color: var(--dark-theme-background-light);
+}
+.card-image {
+    height: 156px;
+    background-color: rgba(0,0,0,0.08);
+}
+
+.card-content {
+    font-weight: 600;
+    padding-inline: 25px;
+    padding-top: 12px;
+    padding-bottom: 26px;
+}
+.card-content h2 {
+    font-size: 17px;
+    font-weight: 600;
+}
+.card-content span {
+    
+    font-weight: 400;
+}
+.card-content p {
+   margin-block: 8px;
+}

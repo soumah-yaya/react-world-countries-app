@@ -1,0 +1,15 @@
+.search-bar {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.6rem;
+    padding: 50px 0;
+}
+@media (max-width: 768px) {
+    .search-bar {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            gap: 40px;
+            padding: 50px 0;
+        }
+}
